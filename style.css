@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Proxima Nova', system-ui, sans-serif;
+}
+
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+}
+
+.sidebar {
+    height: 65px;
+    width: 100%;
+    background: rgb(209, 3, 34);
+    position: fixed;
+    top: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+
+}
+
+a:hover {
+    color: darkblue;
+
+}
+
+.logo {
+    margin: 5px 0 0 20px;
+    padding-top: 15px;
+    float: left;
+}
+
+i {
+    /* color: white; */
+    font-size: 30px;
+}
+
+form {
+    margin: 100px 0 0 550px;
+}
+
+input {
+    height: 45px;
+    width: 330px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+#gender {
+    height: 45px;
+    width: 330px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+#submit {
+    background-color:orangered;
+    color: white;
+    width: 250px;
+    margin-left: 50px;
+    border: none;
+}
+
+h1 {
+    color: black;
+    /* text-align:; */
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background: gray;
+    align-items: center;
+    color: black;
+    position: fixed;
+
+}
+
+footer h3, p {
+    text-align: center;
+    color: white;
+    margin-top: 9px;
+    /* display: inline; */
+
+}
+
+#textarea {
+
+    /* height: 45px; */
+    width: 330px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    margin-left: -3px;
+
+}
+
+.bio img {
+    height: 500px;
+    width: 30%;
+    margin: 80px 0 0 80px;
+    border: 20px solid rgba(139, 78, 4, 0.903);
+}
+
+.narrative {
+    margin:-480px 0 0 560px;
+}
+button
+{
+    background: rgb(209, 3, 34);
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/* .placeholder
+{
+    margin-left: 10px;
+}
+input:valid
+{
+    border: solid green;
+}
+input:invalid
+{
+    border: solid red;
+} */
